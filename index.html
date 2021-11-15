@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--cdn para leer archivo excel forma 1 (solo archivos xlsx)-->
+<!--    <script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js"></script>
+-->
+    <!--cdn para acrhivos excel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.2/xlsx.full.min.js"></script>
+</head>
+<body>
+    <input type="file" id="input" style="display: none;" accept=".xls, .xlsx, .csv">
+    <button id="boton">Abrir excel</button>
+    <button id="descargar"><a href="./csv/plantilla.csv" download="plantilla.csv">Descargar plantilla</a></button>
+    <button id="excel"><a href="./csv/plantilla factura global.xlsx" download="plantilla.xlsx">Descargar excel</a></button>
+    <script src="js/index2.js" type="module"></script>
+</body>
+</html>
